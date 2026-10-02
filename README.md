@@ -1,6 +1,6 @@
 # Filter Algorithms
 
-## 📌 Project Overview  
+## Project Overview  
 
 This repository contains **`dataset2` collected from an IMU sensor** and an implementation file `Average_Filter.m` that includes the following filtering algorithms:  
 
@@ -12,7 +12,7 @@ The objective of this project is to demonstrate fundamental filtering techniques
 
 ---
 
-## 🧮 Filtering Algorithms  
+## Filtering Algorithms  
 
 ### 1. Average Filter  
 The average filter computes the arithmetic mean of the entire dataset to reduce random noise:  
@@ -55,7 +55,7 @@ $$
 
 ---
 
-## 📊 Experimental Results  
+## Experimental Results  
 
 ### Original IMU Data (Offset Removed)  
 <img width="544" height="433" alt="IMU Raw Data" src="https://github.com/user-attachments/assets/bda535c1-1f60-498f-b9a6-0800b9905d91" />  
@@ -90,7 +90,7 @@ Compared to the moving average filter, the low-pass filter allows different weig
 
 ---
 
-## 🎯 Conclusion  
+## Conclusion  
 
 - The **moving average filter** provides effective noise suppression but introduces a trade-off between smoothing and responsiveness depending on the window size.  
 - The **low-pass filter** (LPF) addresses this limitation by assigning different weights to recent and past values, offering a better compromise between noise reduction and signal tracking.  
